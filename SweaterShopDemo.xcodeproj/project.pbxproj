@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		AFEE134027AA9F1B00BA33E1 /* SweaterShopDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE133F27AA9F1B00BA33E1 /* SweaterShopDemoApp.swift */; };
-		AFEE134227AA9F1B00BA33E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE134127AA9F1B00BA33E1 /* ContentView.swift */; };
 		AFEE134427AA9F1D00BA33E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEE134327AA9F1D00BA33E1 /* Assets.xcassets */; };
 		AFEE134727AA9F1D00BA33E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEE134627AA9F1D00BA33E1 /* Preview Assets.xcassets */; };
+		AFEE134F27AAA77600BA33E1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE134E27AAA77600BA33E1 /* Product.swift */; };
+		AFEE135227AAA99D00BA33E1 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE135127AAA99D00BA33E1 /* ProductCard.swift */; };
+		AFEE135627AAABC800BA33E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE135527AAABC800BA33E1 /* ContentView.swift */; };
+		AFEE135827AAADE900BA33E1 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE135727AAADE900BA33E1 /* CartButton.swift */; };
+		AFEE135A27AAAF3100BA33E1 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE135927AAAF3100BA33E1 /* CartView.swift */; };
+		AFEE135C27AAAFCA00BA33E1 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE135B27AAAFCA00BA33E1 /* CartManager.swift */; };
+		AFEE135E27AAB2EC00BA33E1 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE135D27AAB2EC00BA33E1 /* ProductRow.swift */; };
+		AFEE136027AAB97A00BA33E1 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE135F27AAB97A00BA33E1 /* PaymentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFEE133C27AA9F1B00BA33E1 /* SweaterShopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweaterShopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFEE133F27AA9F1B00BA33E1 /* SweaterShopDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweaterShopDemoApp.swift; sourceTree = "<group>"; };
-		AFEE134127AA9F1B00BA33E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFEE134327AA9F1D00BA33E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFEE134627AA9F1D00BA33E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFEE134E27AAA77600BA33E1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AFEE135127AAA99D00BA33E1 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		AFEE135527AAABC800BA33E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFEE135727AAADE900BA33E1 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		AFEE135927AAAF3100BA33E1 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		AFEE135B27AAAFCA00BA33E1 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		AFEE135D27AAB2EC00BA33E1 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		AFEE135F27AAB97A00BA33E1 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				AFEE133F27AA9F1B00BA33E1 /* SweaterShopDemoApp.swift */,
-				AFEE134127AA9F1B00BA33E1 /* ContentView.swift */,
+				AFEE135427AAABAC00BA33E1 /* Views */,
+				AFEE135027AAA97C00BA33E1 /* Components */,
+				AFEE134D27AAA76000BA33E1 /* Models */,
 				AFEE134327AA9F1D00BA33E1 /* Assets.xcassets */,
 				AFEE134527AA9F1D00BA33E1 /* Preview Content */,
+				AFEE135B27AAAFCA00BA33E1 /* CartManager.swift */,
 			);
 			path = SweaterShopDemo;
 			sourceTree = "<group>";
@@ -65,6 +82,34 @@
 				AFEE134627AA9F1D00BA33E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFEE134D27AAA76000BA33E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFEE134E27AAA77600BA33E1 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AFEE135027AAA97C00BA33E1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AFEE135127AAA99D00BA33E1 /* ProductCard.swift */,
+				AFEE135727AAADE900BA33E1 /* CartButton.swift */,
+				AFEE135D27AAB2EC00BA33E1 /* ProductRow.swift */,
+				AFEE135F27AAB97A00BA33E1 /* PaymentButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AFEE135427AAABAC00BA33E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFEE135527AAABC800BA33E1 /* ContentView.swift */,
+				AFEE135927AAAF3100BA33E1 /* CartView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFEE134227AA9F1B00BA33E1 /* ContentView.swift in Sources */,
+				AFEE136027AAB97A00BA33E1 /* PaymentButton.swift in Sources */,
+				AFEE135A27AAAF3100BA33E1 /* CartView.swift in Sources */,
+				AFEE135627AAABC800BA33E1 /* ContentView.swift in Sources */,
+				AFEE135C27AAAFCA00BA33E1 /* CartManager.swift in Sources */,
 				AFEE134027AA9F1B00BA33E1 /* SweaterShopDemoApp.swift in Sources */,
+				AFEE135E27AAB2EC00BA33E1 /* ProductRow.swift in Sources */,
+				AFEE134F27AAA77600BA33E1 /* Product.swift in Sources */,
+				AFEE135227AAA99D00BA33E1 /* ProductCard.swift in Sources */,
+				AFEE135827AAADE900BA33E1 /* CartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
